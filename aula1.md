@@ -14,12 +14,16 @@ Context window: o número máximo de tokens que o modelo pode processar em uma �
 
 É o processo de, baseado em informações disponíveis, gerar predições, inferências e tirar conclusões. O Reasoning permite que o modelo reflita sobre o que ele tem de informações até aquele momento, e quebre sua análise em partes menores.
 
-## Componentes do Reasoning
+### Componentes do Reasoning
 
 * Base de conhecimento: contém grafos de conhecimento, ontologias, redes semânticas. Ela mapeia entidades do mundo real, como conceitos, informações de domínio, eventos, fatos, objetos, relacionamentos, regras e situações. E deve ser modelada de uma forma que a IA consiga entender e utilizar.
 * "Motor" de inferência: o modelo de IA que utiliza a base de conhecimento para gerar predições, inferências e tirar conclusões.
 
 > [Comparação de modelos de IA](https://docs.github.com/en/copilot/reference/ai-models/model-comparison)
+
+### Token bias
+
+Descreve o fato de que cada token no prompt pode influenciar a resposta final do modelo. POr isso é muito importante que o prompt seja escrito da forma mais assertiva possível, para que ele direcione o modeloo exatamente para a resposta esperada.
 
 Thinking
 Chain of thought
