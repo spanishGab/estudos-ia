@@ -37,9 +37,15 @@ Descreve o fato de que cada token no prompt pode influenciar a resposta final do
 
 Ele exige que a IA construa um argumento lógico completo, incluindo premissas e uma conclusão. Através do fornecimento de exemplos que simulam um raciocínio para resolução de um problema, a IA consegue entender a estrutura lógica e aplicá-la para outros cenários.
 
+É uma abordagem mais direta, onde cada token anterior é utilizado para gerar o próximo token "da esquerda para a direita", seguindo um caminho lógico único.
+
 [Artigo IBM](https://www.ibm.com/br-pt/think/topics/chain-of-thoughts)
 
 ## Tree of thought
+
+É uma abordagem hierárquica onde o prompt indica um "nó central" de onde partem diversos outros nós, onde o modelo pode interagir com cada um deles, ir e voltar entre os caminhos iterativamente para poder chegar a uma conclusão.
+
+[Artigo IBM](https://www.ibm.com/br-pt/think/topics/tree-of-thoughts)
 
 ## Mixture of experts
 
