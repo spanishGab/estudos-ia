@@ -21,3 +21,33 @@ Evite regras desnecessárias. Menos é mais.
 
 Cuidado com a quantidade de exemplos e detalhes que vai dar ao escrever as rules para não encher a context window.
 
+## MCP
+
+É um protocolo que padroniza como apps fornecem contexto para LLMs
+
+Host, client, server
+
+### Tools
+
+Funções executáveis para realizar ações.
+
+### Resources
+
+Dados estruturados para contexto adicional.
+
+### Prompts
+
+Templates predefinidos para ações.
+
+### Transporta
+
+* stdio
+* http/ase
+
+### MCPs para devs
+
+* context7*
+* shadcn
+* playwright
+* zen*
+* serena*
