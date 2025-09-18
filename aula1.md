@@ -47,12 +47,10 @@ Ele exige que a IA construa um argumento lógico completo, incluindo premissas e
 
 [Artigo IBM](https://www.ibm.com/br-pt/think/topics/tree-of-thoughts)
 
-## Mixture of experts
-
 ## Random
 
-api ninjas
+* api ninjas
 
-Um júnior tem que conseguir ler seu prompt e executar a task
+> Um júnior tem que conseguir ler seu prompt e executar a task.
 
-[Glossário](https://promptmetheus.com/resources/llm-knowledge-base)
+[Glossário de IA](https://promptmetheus.com/resources/llm-knowledge-base)
