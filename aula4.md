@@ -13,6 +13,8 @@
 
 Os comandos são prompts pré definidos para não precisarmos repetir a escrita nos nossos prompts.
 
+**Limitação dos comandos**: falta de isolamento de contexto e paralelismo.
+
 ### Exemplos de Comandos:
 
 * Implement feature
@@ -23,12 +25,6 @@ Os comandos são prompts pré definidos para não precisarmos repetir a escrita 
 
 * Regra: vale para todas as atividades.
 * Comando: é uma orientação para um tipo específico de atividade.
-
-### Dicas
-
-> SuperClaude: para estudar exemplos de comandos.
-
-**Limitação**: falta de isolamento de contexto e paralelismo.
 
 ## Subagentes
 
@@ -42,3 +38,7 @@ Os comandos são prompts pré definidos para não precisarmos repetir a escrita 
 ### Como criar?
 
 Um arquivo `.md` com as especificações e personalizações daquele agente.
+
+## Recursos
+
+> SuperClaude: para estudar exemplos de comandos.
