@@ -24,7 +24,7 @@ Os comandos são prompts pré definidos para não precisarmos repetir a escrita 
 ### Regra vs Comando
 
 * Regra: vale para todas as atividades.
-* Comando: é uma orientação para um tipo específico de atividade.
+* Comando: é uma orientação que se repete para um tipo específico de atividade.
 
 ## Subagentes
 
@@ -33,11 +33,22 @@ Os comandos são prompts pré definidos para não precisarmos repetir a escrita 
 * Isolamento de contexto: contextos não se misturam
 * Definição de um modelo específico: cada subagente pode utilizar um LLM diferente
 * Restrição de Tools e MCPs
-* Um subagente pode invocar outros para ajudá-lo
+* Um subagente pode invocar outros para ajudá-lo.
+
 
 ### Como criar?
 
 Um arquivo `.md` com as especificações e personalizações daquele agente.
+
+### Exemplos de utilização
+
+* Agente que cria um PRD
+* Agente que cria especificações técnicas
+* Agente que implementa as novas features
+
+Os sub-agentes podem interagir com o usuário para entender mais sobre o que estão criando.
+
+É interessante usar os comandos para orquestrarem os agentes, passando prompts que se repetem para não precisar ficar escrevendo de novo toda vez que for executar.
 
 ## Recursos
 
