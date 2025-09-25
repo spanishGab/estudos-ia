@@ -17,9 +17,16 @@ Os comandos são prompts pré definidos para não precisarmos repetir a escrita 
 
 ### Exemplos de Comandos:
 
-* Implement feature
-* Troubleshoot error
-* Review pull request
+* /implement-feature
+* /troubleshoot
+* /review
+
+```md
+Você é um delegado de tarefas. Utilize os agentes específicos para realizar a ação solicitada.
+.
+.
+.
+```
 
 ### Regra vs Comando
 
@@ -48,7 +55,19 @@ Um arquivo `.md` com as especificações e personalizações daquele agente.
 
 Os sub-agentes podem interagir com o usuário para entender mais sobre o que estão criando.
 
-É interessante usar os comandos para orquestrarem os agentes, passando prompts que se repetem para não precisar ficar escrevendo de novo toda vez que for executar.
+É interessante usar os comandos para **orquestrarem** os agentes, passando prompts que se repetem para não precisar ficar escrevendo de novo toda vez que for executar.
+
+### Exemplos
+
+* Criador de PRDs
+
+### Contexto
+
+Os sub-agentes não compartilham contexto, por isso, a única informação que o sub-agente terá acesso será o que foi produzido pelo agente anterior a ele.
+
+## Criando comandos, agentes, etc
+
+Sempre manter em mente que a melhor forma de criar especificações para a LLM fazer alguma tarefa é fererenciar arquivos relevantes e classificá-los para dizer à LLM onde ela deve olhar para fazer a tarefa.
 
 ## Recursos
 
